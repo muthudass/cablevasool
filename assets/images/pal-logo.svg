@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="273.679" height="125" viewBox="0 0 273.679 125">
+  <g id="Group_444" data-name="Group 444" transform="translate(-156.8 -7.823)">
+    <g id="Group_143" data-name="Group 143" transform="translate(156.302 7.974)">
+      <rect id="Rectangle_743" data-name="Rectangle 743" width="88" height="89" transform="translate(0.498 12.85)" fill="#f27921"/>
+      <path id="Path_376" data-name="Path 376" d="M762.991,35.607l18.359,29.514V91.029H733.932l-19.2-11.8V20.423h28.013Z" transform="translate(-693.327 10.184)" fill="#f0651e"/>
+      <text id="P" transform="translate(15.498 88.85)" fill="#fff" font-size="81" font-family="Arial-Black, Arial" font-weight="800"><tspan x="0" y="0">P</tspan></text>
+    </g>
+    <g id="Group_144" data-name="Group 144" transform="translate(249.396 7.974)">
+      <rect id="Rectangle_744" data-name="Rectangle 744" width="87.99" height="89.666" transform="translate(0 12.57)" fill="#aac73d"/>
+      <path id="Path_377" data-name="Path 377" d="M749,78.244l16.386,12.168h60.32V61.418L789.19,20.909,775.47,27.261,749,78.244" transform="translate(-737.8 10.861)" fill="#818f2e"/>
+      <text id="A" transform="translate(12.57 88)" fill="#fff" font-size="80" font-family="Arial-Black, Arial" font-weight="800"><tspan x="0" y="0">A</tspan></text>
+    </g>
+    <g id="Group_145" data-name="Group 145" transform="translate(341.651 7.974)">
+      <rect id="Rectangle_745" data-name="Rectangle 745" width="88.828" height="89.666" transform="translate(0 12.57)" fill="#e82c3e"/>
+      <path id="Path_378" data-name="Path 378" d="M791.89,78.751,806.98,90.474h50.2V60.143l-50.2-39.2L796,37.908,791.89,76.426Z" transform="translate(-769.436 10.913)" fill="#7d0b19"/>
+      <text id="L" transform="translate(14.246 86)" fill="#fff" font-size="78" font-family="Arial-Black, Arial" font-weight="800"><tspan x="0" y="0">L</tspan></text>
+    </g>
+    <text id="Personalized_Adaptive_Learning" data-name="Personalized Adaptive Learning" transform="translate(156.8 128.823)" fill="#535353" font-size="18" font-family="ArialMT, Arial"><tspan x="0" y="0">Personalized Adaptive Learning</tspan></text>
+  </g>
+</svg>

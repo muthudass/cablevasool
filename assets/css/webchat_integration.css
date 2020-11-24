@@ -1,0 +1,30 @@
+#webchat {
+    border: 1px solid #e8e9ec;
+    max-height: 585px;
+    overflow-y: auto;
+}
+
+.ac-container .ac-adaptiveCard {
+    border-radius: 16px 16px 16px 0px !important;
+}
+
+.webchat__bubble 
+.webchat__bubble--nub-on-top 
+.webchat--css-yivrt-1qo0vqe 
+.webchat--css-yivrt-a32b6p 
+.webchat__stacked-layout__message {
+    border-radius: 16px 16px 16px 0px !important;
+}
+
+.webchat__bubble__content {
+    border-radius: 16px 16px 16px 0px !important;
+}
+
+@media (min-width:767px) {
+    #webchat {
+        max-height: 385px;
+    }
+    .webchat__basic-transcript__scrollable {
+        max-height: 385px !important;
+    }
+    }
