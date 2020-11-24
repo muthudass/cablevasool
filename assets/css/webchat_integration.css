@@ -1,6 +1,6 @@
 #webchat {
     border: 1px solid #e8e9ec;
-    max-height: 585px;
+    /* max-height: 585px; */
     overflow-y: auto;
 }
 
@@ -20,11 +20,11 @@
     border-radius: 16px 16px 16px 0px !important;
 }
 
-@media (min-width:767px) {
+/* @media (min-width:767px) {
     #webchat {
         max-height: 385px;
     }
     .webchat__basic-transcript__scrollable {
         max-height: 385px !important;
     }
-    }
+    } */
