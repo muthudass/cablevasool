@@ -8,6 +8,10 @@
     border-radius: 16px 16px 16px 0px !important;
 }
 
+.webchat__bubble--from-user .webchat__bubble__content {
+    border-radius: 16px 16px 0px 16px !important;
+}
+
 .webchat__bubble 
 .webchat__bubble--nub-on-top 
 .webchat--css-yivrt-1qo0vqe 

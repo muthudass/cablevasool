@@ -19,6 +19,8 @@ function processRequest(e) {
                 sendBoxTextColor: 'black',
                 sendBoxPlaceholderColor: 'black',
                 bubbleBorderRadius: 16,
+                bubbleBackground: '#edf0f5',
+                bubbleFromUserBackground: '#3b86ff',
                 rootHeight: window.innerHeight - 150
             };
             const store = window.WebChat.createStore({}, ({ dispatch }) => next => action => {
