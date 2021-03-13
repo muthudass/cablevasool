@@ -83,55 +83,7 @@ function onBuyClicked() {
     console.log('Web payments are not supported in this browser.');
     return;
   }
-
-  request.addEventListener('shippingaddresschange', function(evt) {
-    evt.updateWith(new Promise(function(resolve) {
-      fetch('/ship', {
-        method: 'POST',
-        headers: new Headers({'Content-Type': 'application/json'}),
-        body: addressToJsonString(request.shippingAddress),
-        credentials: 'include',
-      })
-          .then(function(options) {
-            if (options.ok) {
-              return options.json();
-            }
-            console.log('Unable to calculate shipping options.');
-          })
-          .then(function(optionsJson) {
-            if (optionsJson.status === 'success') {
-              updateShipping(details, optionsJson.shippingOptions, resolve);
-            } else {
-              console.log('Unable to calculate shipping options.');
-            }
-          })
-          .catch(function(err) {
-            console.log('Unable to calculate shipping options. ' + err);
-          });
-    }));
-  });
-
-  request.addEventListener('shippingoptionchange', function(evt) {
-    evt.updateWith(new Promise(function(resolve) {
-      for (let i in details.shippingOptions) {
-        if ({}.hasOwnProperty.call(details.shippingOptions, i)) {
-          details.shippingOptions[i].selected =
-              (details.shippingOptions[i].id === request.shippingOption);
-        }
-      }
-
-      updateShipping(details, details.shippingOptions, resolve);
-    }));
-  });
-
-  var canMakePaymentPromise = checkCanMakePayment(request);
-  canMakePaymentPromise
-      .then((result) => {
-        showPaymentUI(request, result);
-      })
-      .catch((err) => {
-        console.log('Error calling checkCanMakePayment: ' + err);
-      });
+showPaymentUI(request, result);
 }
 
 /**
