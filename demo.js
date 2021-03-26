@@ -83,7 +83,7 @@ function onBuyClicked() {
     console.log('Web payments are not supported in this browser.');
     return;
   }
-showPaymentUI(request, result);
+showPaymentUI(request, true);
 }
 
 /**
