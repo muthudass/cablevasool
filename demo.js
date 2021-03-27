@@ -6,10 +6,10 @@ const canMakePaymentCache = 'canMakePaymentCache';
  */
 function readSupportedInstruments() {
   let formValue = {};
-  formValue['pa'] = "9894132227@okbizaxis";
-  formValue['pn'] = "S Brain";
+  formValue['pa'] = "muthudass95@icici";
+  formValue['pn'] = "Test Business";
   formValue['tn'] = "test note";
-  formValue['mc'] = "BCR2DN6TUXJL3JKC";
+  formValue['mc'] = "BCR2DN6T3P2YZ234";
   formValue['tr'] = "test reference id";
   formValue['tid'] = "454487842";
   formValue['url'] = "https://teztytreats.com/demo";
