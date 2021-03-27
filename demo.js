@@ -6,13 +6,13 @@ const canMakePaymentCache = 'canMakePaymentCache';
  */
 function readSupportedInstruments() {
   let formValue = {};
-  formValue['pa'] = document.getElementById('pa').value;
-  formValue['pn'] = document.getElementById('pn').value;
-  formValue['tn'] = document.getElementById('tn').value;
-  formValue['mc'] = document.getElementById('mc').value;
-  formValue['tr'] = document.getElementById('tr').value;
-  formValue['tid'] = document.getElementById('tid').value;
-  formValue['url'] = document.getElementById('url').value;
+  formValue['pa'] = "9894132227@okbizaxis";
+  formValue['pn'] = "S Brain";
+  formValue['tn'] = "test note";
+  formValue['mc'] = "BCR2DN6TUXJL3JKC";
+  formValue['tr'] = "test reference id";
+  formValue['tid'] = "454487842";
+  formValue['url'] = "https://teztytreats.com/demo";
   return formValue;
 }
 
