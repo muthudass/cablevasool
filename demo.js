@@ -6,8 +6,8 @@ const canMakePaymentCache = 'canMakePaymentCache';
  */
 function readSupportedInstruments() {
   let formValue = {};
-  formValue['pa'] = "9842309897@okbizaxis";
-  formValue['pn'] = "Wings Computer Care System";
+  formValue['pa'] = "9894132227@okbizaxis";
+  formValue['pn'] = "S Brain";
   formValue['tn'] = "test note";
   formValue['mc'] = "BCR2DN6TUXJL3JKC";
   formValue['tr'] = "test reference id";
